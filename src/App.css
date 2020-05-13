@@ -1,0 +1,34 @@
+.App {
+    text-align: center;
+}
+
+.card-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,.09), 8px 3px 14px 3px rgba(0,0,0,.09);
+    background-color: #fff;
+    color: black;
+    display: flex;
+    max-width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 156px;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

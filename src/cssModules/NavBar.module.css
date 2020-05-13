@@ -1,0 +1,28 @@
+.navbar{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    display: flex;
+    flex: 1;
+    flex-direction: row ;
+    justify-content: space-evenly; /* Align all items inside the navbar horizontally */
+    align-items: center;
+    color: white;
+}
+
+
+.brand {
+    font-size: 20px;
+}
+
+.navbtn{
+    font-size: 14px;
+}
+
+.spacer {
+    width: 100%;
+    height: 65px;
+
+}

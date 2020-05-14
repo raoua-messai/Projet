@@ -40,6 +40,7 @@ function Home() {
 
     return (
         <div>
+                <h1>Image Cards uploader</h1>
             <input type='file' id="upload-file" onChange={e => fileWasUploaded(e)}/> {!isImage && <p className='error'>Please upload a valid image with jpg or png extension</p>}
             <div className="card-container">
                 {

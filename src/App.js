@@ -12,10 +12,11 @@ function App() {
         <div className="App">
         
             <h1>Image Cards uploader</h1>
-            <Home/>
+            
             <Router>
             <NavBar />
               <Switch>
+                 <Route exact path="/" component={Home}/>
                 <Route exact path="/about" component={About}/>
               </Switch>
             </Router>
